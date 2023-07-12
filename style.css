@@ -1,0 +1,126 @@
+/* body{
+    color: rgb(95, 57, 0);
+}
+
+#lib-header{
+    color: cornflowerblue;
+}
+
+.para{
+    color: black;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color: black;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/* link */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem;
+}
+
+.primary-link{
+    background-color: rgb(131, 35, 131);
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.secondary-link{
+    color: rgb(117, 9, 117);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(63, 41, 63);
+}
+/* bem naming convension */
+hr{
+    margin: 2rem 0;
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+   display: inline; 
+   padding: 0 0.5rem;
+}
+
+.navigation{
+    background-color: rgb(82, 21, 82);
+    color: #fff;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: #fff;
+}
+.navigation .active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: grey;
+
+}
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+}
+
+.ow{
+    background-color: rgb(203, 203, 205);
+}
+
+.footer{
+    background-color: rgb(84, 22, 84);
+    padding: 2rem 1rem ;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: #fff;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
