@@ -38,7 +38,7 @@ body{
 .primary-link{
     background-color: rgb(131, 35, 131);
     border-radius: 0.5rem;
-    color: #fff;
+    color: #ffffff;
 }
 
 .secondary-link{
@@ -94,13 +94,22 @@ hr{
     text-align: center;
     padding-top: 1rem;
     color: grey;
-
 }
+.hero p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
 .section{
+    text-align: center;
     padding: 2rem;
 }
 .section h3{
     text-align: center;
+}
+.section p{
+    margin: 34px;
 }
 
 .ow{
@@ -124,3 +133,4 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+
