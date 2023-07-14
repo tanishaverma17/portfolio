@@ -55,6 +55,7 @@ hr{
     list-style: none;
 }
 
+
 .list-inline{
    display: inline; 
    padding: 0 0.5rem;
@@ -134,3 +135,21 @@ hr{
     padding-inline-start: 0px;
 }
 
+@media screen and (max-width:768px){
+    .nav-pills, .social-links{
+        display: flex;
+    }
+    .list-inline{
+        margin: 1px;
+        padding: 0.12px;
+    }
+
+    .project a{
+        display: block;
+    }
+    .nav-pills .link, .social-links .link{
+        padding: 0px;
+        margin: 1.25rem;
+    }
+
+}
