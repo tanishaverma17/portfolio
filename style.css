@@ -115,6 +115,7 @@ hr{
 
 .ow{
     background-color: rgb(203, 203, 205);
+    margin: 1% 10%;
 }
 
 .footer{
@@ -135,7 +136,7 @@ hr{
     padding-inline-start: 0px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
     .nav-pills, .social-links{
         display: flex;
     }
