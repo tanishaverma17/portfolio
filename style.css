@@ -136,7 +136,7 @@ hr{
     padding-inline-start: 0px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .nav-pills, .social-links{
         display: flex;
     }
